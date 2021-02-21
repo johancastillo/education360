@@ -1,7 +1,11 @@
 import logo from "./logo.svg"
 import { Link } from "wouter"
+import { useState } from "react"
 
 const Navigation = () => {
+    const [mobile, setMobile] = useState(false)
+    const handleMenu = () => setMobile(!mobile)
+
     return (
         <div>
             {/* <!-- ======= Header ======= --> */}
@@ -15,7 +19,7 @@ const Navigation = () => {
                         </a>
                     </Link>
 
-                    <nav id="navbar" className="navbar order-last order-lg-0">
+                    <nav id="navbar" className={mobile ? "navbar order-last order-lg-0 navbar-mobile" : "navbar order-last order-lg-0"}>
                         <ul>
                             <li>
                                 <Link href="/">
@@ -119,7 +123,8 @@ const Navigation = () => {
                             </li>
 
                         </ul>
-                        <i className="bi bi-list mobile-nav-toggle"></i>
+
+                        <i className={mobile ? "bi mobile-nav-toggle bi-x" : "bi bi-list mobile-nav-toggle"} onClick={handleMenu}></i>
                     </nav>
                     {/* <!-- .navbar --> */}
 
