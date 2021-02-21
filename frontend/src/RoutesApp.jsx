@@ -10,7 +10,9 @@ import ContactUs from './pages/contact-us/ContactUs'
 import CourseCategory from './pages/course-category/CourseCategory'
 import Courses from './pages/courses/Courses'
 import Home from './pages/home/Home'
+import Login from './pages/login/Login'
 import Register from './pages/register/Register'
+import ResetPassword from './pages/reset-password/ResetPassword'
 import Services from './pages/services/Services'
 import Team from './pages/team/Team'
 import WorksHome from './works/works-home/WorksHome'
@@ -23,10 +25,12 @@ const RoutesApp = () => {
 
       <Switch>
         <Route path="/" component={Home} />
-        <Route path="/login" component={Services} />
+        <Route path="/login" component={Login} />
         <Route path="/register" component={Register} />
         <Route path="/servicios" component={Services} />
         <Route path="/nosotros" component={AboutUs} />
+        <Route path="/explorar" component={AboutUs} />
+        <Route path="/reset-password" component={ResetPassword} />
         <Route path="/contacto" component={ContactUs} />
         <Route path="/cursos/categorias" component={Categories} />
         <Route path="/cursos/categorias/:title" component={CourseCategory} />
