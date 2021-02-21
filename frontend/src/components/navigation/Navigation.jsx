@@ -65,8 +65,8 @@ const Navigation = () => {
                                         </ul>
                                     </li>
 
-                                    <li><a href="#">Otra opción</a></li>
-                                    <li><a href="#">Drop Down 3</a></li>
+                                    <li><a href="#">Equipo</a></li>
+                                    <li><a href="#">Contactar</a></li>
 
                                     <li>
                                         <Link href="/tabajos">
