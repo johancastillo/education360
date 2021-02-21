@@ -34,42 +34,72 @@ const Navigation = () => {
                             <li className="dropdown">
                                 <a href="#"><span>Explorar</span> <i className="bi bi-chevron-down"></i></a>
                                 <ul>
-                                    <li><a >Servicios</a></li>
+                                    <li>
+                                        <Link href="/seRvicios">
+                                            <a >Servicios</a>
+                                        </Link>
+                                    </li>
 
                                     <li className="dropdown">
-                                        <a href="#"><span>Cursos</span> <i className="bi bi-chevron-right"></i></a>
+                                        <Link href="/cursos">
+                                            <a>
+                                                <span>Cursos</span> <i className="bi bi-chevron-right"></i>
+                                            </a>
+                                        </Link>
+
                                         <ul>
                                             <li>
-                                                <a href="#">Todas las categorías</a>
+                                                <Link href="/cursos/categorias">
+                                                    <a>Todas las categorías</a>
+                                                </Link>
                                             </li>
 
                                             <li>
-                                                <a href="#">Desarrollo de Software</a>
+                                                <Link href="/cursos/categorias/software">
+                                                    <a>Desarrollo de Software</a>
+                                                </Link>
                                             </li>
 
                                             <li>
-                                                <a href="#">Matemáticas</a>
+                                                <Link href="/cursos/categorias/matematicas">
+                                                    <a>Matemáticas</a>
+                                                </Link>
                                             </li>
 
                                             <li>
-                                                <a href="#">Diseño</a>
+                                                <Link href="/cursos/categorias/diseno">
+                                                    <a href="#">Diseño</a>
+                                                </Link>
                                             </li>
 
                                             <li>
-                                                <a href="#">Negocios</a>
+                                                <Link href="/cursos/categorias/negocios">
+                                                    <a>Negocios</a>
+                                                </Link>
                                             </li>
 
                                             <li>
-                                                <a href="#">Marketing</a>
+                                                <Link href="/cursos/categorias/marketing">
+                                                    <a>Marketing</a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </li>
 
-                                    <li><a href="#">Equipo</a></li>
-                                    <li><a href="#">Contactar</a></li>
+                                    <li>
+                                        <Link href="/equipo">
+                                            <a href="#">Equipo</a>
+                                        </Link>
+                                    </li>
 
                                     <li>
-                                        <Link href="/tabajos">
+                                        <Link href="/contacto">
+                                            <a>Contactar</a>
+                                        </Link>
+                                    </li>
+
+                                    <li>
+                                        <Link href="/trabajos">
                                             <a>Trabajos</a>
                                         </Link>
                                     </li>

@@ -2,7 +2,7 @@
 
 const Team = () => {
     return(
-        <div>
+        <div className="page">
             <h1 className="text-center">Nuestro equipo</h1>
         </div>
     )

@@ -1,4 +1,4 @@
-
+import {Link} from "wouter"
 
 const CoverPage = () => {
     return (
@@ -11,9 +11,11 @@ const CoverPage = () => {
                             que necesitas para lograr
                             <span> tus sueños!</span></h2>
                         <div>
-                            <a href="#about" className="btn-get-started scrollto">
-                                Regístrate gratis
+                            <Link href="/register">
+                                <a className="btn-get-started scrollto">
+                                    Regístrate gratis
                                 </a>
+                            </Link>
                         </div>
                     </div>
 

@@ -1,5 +1,5 @@
 import AboutSection from "../../components/about-section/AboutSection"
-import BenefitsSection from "../../components/benefits-section/BenefitsSection"
+import ServicesSection from "../../components/services-section/ServicesSection"
 import BtnToUp from "../../components/btn-to-up/BtnToUp"
 import CallToAction from "../../components/call-to-action/CallToAction"
 import ClientsSection from "../../components/clients-section/ClientsSection"
@@ -21,7 +21,7 @@ const Home = () => {
       <main id="main">
 
         <AboutSection />
-        <BenefitsSection />
+        <ServicesSection />
         <WhyUsSection />
         <CallToAction />
         <FeaturesSection />
@@ -34,9 +34,7 @@ const Home = () => {
 
       </main>
 
-
       <Footer />
-
       <BtnToUp />
 
     </>
