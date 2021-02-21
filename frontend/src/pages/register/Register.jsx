@@ -9,28 +9,28 @@ const Register = () => {
 
                 <form className="mt-4" style={{ width: "100%" }}>
                     
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Nombre de usuario</label>
-                        <input type="text" class="form-control" placeholder="Nombre de usuario" />
+                    <div className="mb-3">
+                        <label for="exampleInputEmail1" className="form-label">Nombre de usuario</label>
+                        <input type="text" className="form-control" placeholder="Nombre de usuario" />
                     </div>
 
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
-                        <input type="email" class="form-control" placeholder="ejemplo@gmail.com" />
+                    <div className="mb-3">
+                        <label for="exampleInputEmail1" className="form-label">Correo electrónico</label>
+                        <input type="email" className="form-control" placeholder="ejemplo@gmail.com" />
                     </div>
 
-                    <div class="mb-3 mt-2">
-                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                        <input type="password" class="form-control" placeholder="*********" />
+                    <div className="mb-3 mt-2">
+                        <label for="exampleInputPassword1" className="form-label">Contraseña</label>
+                        <input type="password" className="form-control" placeholder="*********" />
                     </div>
 
-                    <div class="mb-3 mt-2">
-                        <label for="exampleInputPassword1" class="form-label">Repite la contraseña</label>
-                        <input type="password" class="form-control" placeholder="*********" />
+                    <div className="mb-3 mt-2">
+                        <label for="exampleInputPassword1" className="form-label">Repite la contraseña</label>
+                        <input type="password" className="form-control" placeholder="*********" />
                     </div>
 
                     <div className="d-grid gap-2">
-                        <button class="btn btn-info text-uppercase">Crear</button>
+                        <button className="btn btn-info text-uppercase">Crear</button>
                     </div>
 
                     <div className="mt-4 text-center">

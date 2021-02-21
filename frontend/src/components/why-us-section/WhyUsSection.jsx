@@ -5,13 +5,13 @@ const WhyUsSection = () => {
         <section id="why-us" className="why-us">
             <div className="container-fluid" data-aos="fade-up">
                 <header className="section-header">
-                    <h3>Why choose us?</h3>
-                    <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
+                    <h3>¿Por qué elegirnos?</h3>
+                    <p>Descubre las razones por las que nuestros clientes nos eligen.</p>
                 </header>
                 <div className="row">
                     <div className="col-lg-6" data-aos="zoom-in" data-aos-delay={100}>
                         <div className="why-us-img">
-                            <img src="assets/img/why-us.jpg" alt="" className="img-fluid" />
+                            <img src="assets/img/why-us.png" alt="" className="img-fluid" />
                         </div>
                     </div>
                     <div className="col-lg-6">
