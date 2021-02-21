@@ -28,8 +28,8 @@ const RoutesApp = () => {
         <Route path="/servicios" component={Services} />
         <Route path="/nosotros" component={AboutUs} />
         <Route path="/contacto" component={ContactUs} />
-        <Route exact path="/cursos/categorias" component={Categories} />
-        <Route exact path="/cursos/categorias/:title" component={CourseCategory} />
+        <Route path="/cursos/categorias" component={Categories} />
+        <Route path="/cursos/categorias/:title" component={CourseCategory} />
         <Route path="/equipo" component={Team} />
         <Route path="/cursos" component={Courses} />
         <Route path="/blog" component={BlogHome} />

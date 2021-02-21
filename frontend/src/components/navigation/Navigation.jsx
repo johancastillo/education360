@@ -22,24 +22,95 @@ const Navigation = () => {
                     <nav id="navbar" className={mobile ? "navbar order-last order-lg-0 navbar-mobile" : "navbar order-last order-lg-0"}>
                         <ul>
                             <li>
-                                <Link href="/">
+                                <Link href="/" onClick={mobile ? handleMenu : ""}>
                                     <a className="nav-link scrollto active">Inicio</a>
                                 </Link>
                             </li>
 
                             <li>
-                                <Link href="/nosotros">
+                                <Link href="/nosotros"  onClick={mobile ? handleMenu : ""}>
                                     <a className="nav-link scrollto">Sobre nosotros</a>
                                 </Link>
                             </li>
 
+                            <div class="accordion accordion-flush" id="accordionFlushExample" style={mobile ? {} : {display: "none"}}>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            <li><a className="p-0">Explorar</a></li>
+                                        </button>
+                                    </h2>
+
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <Link href="/servicios" onClick={handleMenu}>
+                                            <a style={{fontWeight: "400"}}>
+                                                <span>Servicios</span>
+                                            </a>
+                                        </Link>
+
+                                        <Link href="/cursos" onClick={handleMenu}>
+                                            <a style={{fontWeight: "400"}}>
+                                                <span>Cursos</span>
+                                            </a>
+                                        </Link>
+
+                                        <Link href="/equipo" onClick={handleMenu}>
+                                            <a style={{fontWeight: "400"}}>
+                                                <span>Equipo</span>
+                                            </a>
+                                        </Link>
+
+                                        <Link href="/contacto" onClick={handleMenu}>
+                                            <a style={{fontWeight: "400"}}>
+                                                <span>Contactar</span>
+                                            </a>
+                                        </Link>
+
+                                        <Link href="/trabajos" onClick={handleMenu}>
+                                            <a style={{fontWeight: "400"}}>
+                                                <span>Trabajos</span>
+                                            </a>
+                                        </Link>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingTwo">
+                                        <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                           <li>
+                                               <a className="p-0">Mi cuenta</a>
+                                            </li> 
+                                        </button>
+                                    </h2>
+
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                        <Link href="/mi-perfil" onClick={handleMenu}>
+                                            <a style={{fontWeight: "400"}}>
+                                                <span>Mi perfil</span>
+                                            </a>
+                                        </Link>
+
+                                        <Link href="/mis-cursos" onClick={handleMenu}>
+                                            <a style={{fontWeight: "400"}}>
+                                                <span>Mis cursos</span>
+                                            </a>
+                                        </Link>
+
+                                        <Link href="/mis-cursos" onClick={handleMenu}>
+                                            <a style={{fontWeight: "400"}}>
+                                                <span>Cerrar sesión</span>
+                                            </a>
+                                        </Link>
+                                    </div>
+                                </div>
+                                
+                            </div>
 
 
                             <li className="dropdown">
                                 <a href="#"><span>Explorar</span> <i className="bi bi-chevron-down"></i></a>
                                 <ul>
                                     <li>
-                                        <Link href="/seRvicios">
+                                        <Link href="/servicios">
                                             <a >Servicios</a>
                                         </Link>
                                     </li>
@@ -111,13 +182,13 @@ const Navigation = () => {
                             </li>
 
                             <li>
-                                <Link href="/blog">
+                                <Link href="/blog" onClick={mobile ? handleMenu : ""}>
                                     <a className="nav-link scrollto">Blog</a>
                                 </Link>
                             </li>
 
                             <li>
-                                <Link href="/biblioteca">
+                                <Link href="/biblioteca" onClick={mobile ? handleMenu : ""}>
                                     <a className="nav-link scrollto">Biblioteca</a>
                                 </Link>
                             </li>
