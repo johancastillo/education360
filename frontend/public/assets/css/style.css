@@ -91,7 +91,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-transparent {
-  background: transparent;
+  /* background: transparent; */
+  background: #fff;
 }
 
 #header.header-scrolled {
@@ -387,7 +388,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 992px) {
   #hero .intro-info {
-    padding-top: 100px;
+    /* padding-top: 100px; */
   }
 }
 

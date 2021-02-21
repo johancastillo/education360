@@ -2,6 +2,7 @@
 import {Switch, Route, Router, Link} from 'wouter'
 // Pages
 import BlogHome from './blog/blog-home/BlogHome'
+import Navigation from './components/navigation/Navigation'
 import LibraryHome from './library/library-home/LibraryHome'
 import AboutUs from './pages/about-us/AboutUs'
 import ContactUs from './pages/contact-us/ContactUs'
@@ -13,16 +14,8 @@ import Team from './pages/team/Team'
 const RoutesApp = () => {
   return (
     <Router>
-      <ul>
-        <Link href="/"><a className="mx-2">Inicio</a></Link>
-        <Link href="/servicios"><a className="mx-2">Servicios</a></Link>
-        <Link href="/nosotros"><a className="mx-2">Sobre nosotros</a></Link>
-        <Link href="/contacto"><a className="mx-2">Contacto</a></Link>
-        <Link href="/equipo"><a className="mx-2">Equipo</a></Link>
-        <Link href="/cursos"><a className="mx-2">Cursos</a></Link>
-        <Link href="/blog"><a className="mx-2">Blog</a></Link>
-        <Link href="/biblioteca"><a className="mx-2">Biblioteca</a></Link>
-      </ul>
+      <Navigation />
+
 
       <Switch>
         <Route path="/" component={Home} />
