@@ -5,7 +5,7 @@ const FrequentQuestion = () => {
         <section id="faq" className="faq">
             <div className="container" data-aos="fade-up">
                 <header className="section-header">
-                    <h3>Frequently Asked Questions</h3>
+                    <h3>Pregntas frecuentes</h3>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
                 </header>
                 <ul className="faq-list" data-aso="fade-up" data-aos-delay={100}>

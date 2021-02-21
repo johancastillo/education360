@@ -6,7 +6,7 @@ const ResetPassword = () => {
 
     return(
         <div className="page" style={{ minHeight: "100vh" }}>
-            <div className="container d-flex justify-content-center align-items-center flex-column" style={{ maxWidth: '350px' }}>
+            <div className="card p-4 mb-5 container d-flex justify-content-center align-items-center flex-column" style={{ maxWidth: '350px' }}>
                 <h1 className="text-center">Restablecer contraseña</h1>
 
                 <form className="mt-4" style={{ width: "100%" }}>

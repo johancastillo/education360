@@ -11,11 +11,11 @@ const TeamSection = () => {
                 <div className="row">
                     <div className="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay={100}>
                         <div className="member">
-                            <img src="assets/img/team-1.jpg" className="img-fluid" alt="" />
+                            <img src="assets/img/team-1.png" className="img-fluid" alt="" />
                             <div className="member-info">
                                 <div className="member-info-content">
-                                    <h4>Walter White</h4>
-                                    <span>Chief Executive Officer</span>
+                                    <h4>johan Castillo</h4>
+                                    <span>Desarrollador Web Full Stack</span>
                                     <div className="social">
                                         <a href><i className="bi bi-twitter" /></a>
                                         <a href><i className="bi bi-facebook" /></a>
