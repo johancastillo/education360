@@ -41,26 +41,8 @@ const WhyUsSection = () => {
                     </div>
                 </div>
             </div>
-            <div className="container">
-                <div className="row counters" data-aos="fade-up" data-aos-delay={100}>
-                    <div className="col-lg-3 col-6 text-center">
-                        <span data-purecounter-start={0} data-purecounter-end={232} data-purecounter-duration={1} className="purecounter" />
-                        <p>Clients</p>
-                    </div>
-                    <div className="col-lg-3 col-6 text-center">
-                        <span data-purecounter-start={0} data-purecounter-end={421} data-purecounter-duration={1} className="purecounter" />
-                        <p>Projects</p>
-                    </div>
-                    <div className="col-lg-3 col-6 text-center">
-                        <span data-purecounter-start={0} data-purecounter-end={1453} data-purecounter-duration={1} className="purecounter" />
-                        <p>Hours Of Support</p>
-                    </div>
-                    <div className="col-lg-3 col-6 text-center">
-                        <span data-purecounter-start={0} data-purecounter-end={48} data-purecounter-duration={1} className="purecounter" />
-                        <p>Hard Workers</p>
-                    </div>
-                </div>
-            </div>
+
+            
         </section>
     )
 }

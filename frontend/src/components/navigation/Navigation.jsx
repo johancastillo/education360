@@ -146,6 +146,12 @@ const Navigation = () => {
                                             </li>
 
                                             <li>
+                                                <Link href="/cursos/categorias/ingles">
+                                                    <a>Inglés</a>
+                                                </Link>
+                                            </li>
+
+                                            <li>
                                                 <Link href="/cursos/categorias/diseno">
                                                     <a href="#">Diseño</a>
                                                 </Link>

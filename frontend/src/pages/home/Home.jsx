@@ -12,11 +12,13 @@ import PricingSection from "../../components/pricing-section/PricingSection"
 import TeamSection from "../../components/team-section/TeamSection"
 import Testimonials from "../../components/testimonials/Testimonials"
 import WhyUsSection from "../../components/why-us-section/WhyUsSection"
+import Counter from "../../components/counter/Counter"
 
 const Home = () => {
   return (
     <>
       <CoverPage />
+      <Counter />
 
       <main id="main">
 
