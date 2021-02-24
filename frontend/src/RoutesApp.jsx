@@ -8,6 +8,7 @@ import AboutUs from './pages/about-us/AboutUs'
 import Categories from './pages/categories/Categories'
 import ContactUs from './pages/contact-us/ContactUs'
 import CourseCategory from './pages/course-category/CourseCategory'
+import CourseDetails from './pages/course-details/CourseDetails'
 import Courses from './pages/courses/Courses'
 import Home from './pages/home/Home'
 import Login from './pages/login/Login'
@@ -34,6 +35,8 @@ const RoutesApp = () => {
         <Route path="/contacto" component={ContactUs} />
         <Route path="/cursos/categorias" component={Categories} />
         <Route path="/cursos/categorias/:title" component={CourseCategory} />
+        <Route path="/cursos/:title" component={CourseDetails} />
+
         <Route path="/equipo" component={Team} />
         <Route path="/cursos" component={Courses} />
         <Route path="/blog" component={BlogHome} />

@@ -12,8 +12,11 @@ const paths = {
 const CourseCategory = ({ params }) => {
     return (
         <div className="container page">
-            <h1 className="text-center">
-                Cursos de {paths[params.title]}
+            <h1 className="text-center title">
+                Cursos de
+                <span className="mx-2" style={{ color: "#1bb1dc" }}>
+                    {paths[params.title]}
+                </span>
             </h1>
 
             <h4 className="mt-4">Cursos para dar tus primeros pasos</h4>
@@ -48,6 +51,7 @@ const CourseCategory = ({ params }) => {
                                     image="https://edteam-media.s3.amazonaws.com/courses/small/cd6b19fb-bfcb-4197-bf68-4fd2ab7f37e2.png"
                                     stars={3.5}
                                     price={12.5}
+                                    tag="Lo más vendido"
                                     teacherImg="https://edteam-media.s3.amazonaws.com/users/thumbnail/36ee2910-a392-46f3-8303-937dc3055c91.jpg"
                                     teacher="Johan Castillo"
                                 />
@@ -281,13 +285,13 @@ const CourseCategory = ({ params }) => {
             <nav aria-label="Page navigation example">
                 <ul class="pagination justify-content-center">
                     <li class="page-item disabled">
-                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
                     </li>
                     <li class="page-item"><a class="page-link" href="#">1</a></li>
                     <li class="page-item"><a class="page-link" href="#">2</a></li>
                     <li class="page-item"><a class="page-link" href="#">3</a></li>
                     <li class="page-item">
-                        <a class="page-link" href="#">Next</a>
+                        <a class="page-link" href="#">Siguiente</a>
                     </li>
                 </ul>
             </nav>
