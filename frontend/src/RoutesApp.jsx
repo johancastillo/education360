@@ -1,5 +1,6 @@
 // Dependencies
 import {Switch, Route, Router, Link} from 'wouter'
+import Article from './blog/article/Article'
 // Pages
 import BlogHome from './blog/blog-home/BlogHome'
 import Navigation from './components/navigation/Navigation'
@@ -36,7 +37,11 @@ const RoutesApp = () => {
         <Route path="/cursos/categorias/:title" component={CourseCategory} />
         <Route path="/equipo" component={Team} />
         <Route path="/cursos" component={Courses} />
+        
+        {/* Rotes for Blog */}
         <Route path="/blog" component={BlogHome} />
+        <Route path="/blog/:title" component={Article} />
+        
         <Route path="/biblioteca" component={LibraryHome} />
         <Route path="/trabajos" component={WorksHome} />
       </Switch>
