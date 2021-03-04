@@ -6,8 +6,10 @@ import gambitoDama from "../ebooks-img/gambito-de-dama.jpg"
 
 const LibraryHome = () => {
     return(
-        <div className="page">
-            <h1 className="text-center">Biblioteca</h1>
+        <div className="page container">
+            <h1 className="text-center title">
+                Biblioteca
+            </h1>
 
             <div className="container mt-4">
                 <div className="row">
