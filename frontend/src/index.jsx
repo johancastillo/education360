@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import RoutesApp from './RoutesApp'
 // Styles CSS
-import "./index.css"
+import "./styles/globals.css"
 
 ReactDOM.render(
   <React.StrictMode>
