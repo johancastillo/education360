@@ -20,9 +20,10 @@ const CoverPage = () => {
                         </div>
                     </div>
 
-                    <div className="col-lg-6 intro-img order-lg-last order-first" data-aos="zoom-out" data-aos-delay="200">
+                    <div className="col-lg-6 intro-img order-lg-last order-first">
                         <img src="assets/img/intro-img.svg" alt="" className="img-fluid" />
                     </div>
+
                 </div>
 
             </div>

@@ -449,6 +449,40 @@ body {
   #hero .intro-info .btn-get-started:hover, #hero .intro-info .btn-services:hover {
     background: #0a98c0;
   }
+
+  /*
+  ##############
+  # Animations #
+  ##############
+  */
+
+  .intro-img{
+    animation: zoom-out 1s;
+  }
+
+  .intro-info{
+    animation: zoom-in 2s;
+  }
+
+  @keyframes zoom-out {
+    from{
+      transform: scale(3);
+    }
+    to{
+      transform: scale(1);
+    }
+  }
+
+  @keyframes zoom-in {
+    from{
+      transform: scale(0);
+    }
+    to{
+      transform: scale(1);
+    }
+  }
+
+  
   
   /*--------------------------------------------------------------
   # Sections

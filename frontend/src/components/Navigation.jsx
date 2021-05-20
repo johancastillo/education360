@@ -33,15 +33,15 @@ const Navigation = () => {
                                 </Link>
                             </li>
 
-                            <div class="accordion accordion-flush" id="accordionFlushExample" style={mobile ? {} : { display: "none" }}>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="flush-headingOne">
-                                        <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <div className="accordion accordion-flush" id="accordionFlushExample" style={mobile ? {} : { display: "none" }}>
+                                <div className="accordion-item">
+                                    <h2 className="accordion-header" id="flush-headingOne">
+                                        <button className="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                                             <li><a className="p-0">Explorar</a></li>
                                         </button>
                                     </h2>
 
-                                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                         <Link href="/servicios" onClick={handleMenu}>
                                             <a style={{ fontWeight: "400" }}>
                                                 <span>Servicios</span>
@@ -73,16 +73,16 @@ const Navigation = () => {
                                         </Link>
                                     </div>
                                 </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="flush-headingTwo">
-                                        <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                <div className="accordion-item">
+                                    <h2 className="accordion-header" id="flush-headingTwo">
+                                        <button className="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                                             <li>
                                                 <a className="p-0">Mi cuenta</a>
                                             </li>
                                         </button>
                                     </h2>
 
-                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                         <Link href="/mi-perfil" onClick={handleMenu}>
                                             <a style={{ fontWeight: "400" }}>
                                                 <span>Mi perfil</span>

@@ -21,27 +21,27 @@ const CourseCategory = ({ params }) => {
 
             <h4 className="mt-4">Cursos para dar tus primeros pasos</h4>
 
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
+            <ul className="nav nav-tabs" id="myTab" role="tablist">
+                <li className="nav-item" role="presentation">
+                    <button className="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
                         Populares
                     </button>
                 </li>
 
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
+                <li className="nav-item" role="presentation">
+                    <button className="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
                         Recientes
                     </button>
                 </li>
 
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">
+                <li className="nav-item" role="presentation">
+                    <button className="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">
                         Más vendidos
                     </button>
                 </li>
             </ul>
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div className="tab-content" id="myTabContent">
+                <div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                     <div className="container mt-4">
                         <div className="row">
 
@@ -61,11 +61,11 @@ const CourseCategory = ({ params }) => {
                     </div>
                 </div>
 
-                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div className="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 
                 </div>
 
-                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <div className="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
 
                 </div>
             </div>
@@ -127,16 +127,16 @@ const CourseCategory = ({ params }) => {
                 <div className="row">
 
                     <div className="col-md-6">
-                        <div class="card mb-3" style={{ maxWidth: "540px" }}>
-                            <div class="row g-0">
-                                <div class="col-md-4">
+                        <div className="card mb-3" style={{ maxWidth: "540px" }}>
+                            <div className="row g-0">
+                                <div className="col-md-4">
                                     <img src="..." alt="..." />
                                 </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <div className="col-md-8">
+                                    <div className="card-body">
+                                        <h5 className="card-title">Card title</h5>
+                                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                     </div>
                                 </div>
                             </div>
@@ -144,16 +144,16 @@ const CourseCategory = ({ params }) => {
                     </div>
 
                     <div className="col-md-6">
-                        <div class="card mb-3" style={{ maxWidth: "540px" }}>
-                            <div class="row g-0">
-                                <div class="col-md-4">
+                        <div className="card mb-3" style={{ maxWidth: "540px" }}>
+                            <div className="row g-0">
+                                <div className="col-md-4">
                                     <img src="..." alt="..." />
                                 </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <div className="col-md-8">
+                                    <div className="card-body">
+                                        <h5 className="card-title">Card title</h5>
+                                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                     </div>
                                 </div>
                             </div>
@@ -171,7 +171,7 @@ const CourseCategory = ({ params }) => {
             <div className="my-2">
                 <button className="btn btn-primary">Filtrar</button>
 
-                <select class="form-select" aria-label="Default select example">
+                <select className="form-select" aria-label="Default select example">
                     <option selected>Open this select menu</option>
                     <option value="1">One</option>
                     <option value="2">Two</option>
@@ -182,39 +182,39 @@ const CourseCategory = ({ params }) => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-4">
-                        <div class="accordion" id="accordionExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <div className="accordion" id="accordionExample">
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="headingOne">
+                                    <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                         Accordion Item #1
       </button>
                                 </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
+                                <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div className="accordion-body">
                                         <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
       </div>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="headingTwo">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                         Accordion Item #2
       </button>
                                 </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
+                                <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div className="accordion-body">
                                         <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
       </div>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="headingThree">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                         Accordion Item #3
       </button>
                                 </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
+                                <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div className="accordion-body">
                                         <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
       </div>
                                 </div>
@@ -224,16 +224,16 @@ const CourseCategory = ({ params }) => {
 
                     <div className="col-md-8">
                         <div className="col-md-6">
-                            <div class="card mb-3" style={{ width: "100%" }}>
-                                <div class="row g-0">
-                                    <div class="col-md-4">
+                            <div className="card mb-3" style={{ width: "100%" }}>
+                                <div className="row g-0">
+                                    <div className="col-md-4">
                                         <img src="..." alt="..." />
                                     </div>
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <div className="col-md-8">
+                                        <div className="card-body">
+                                            <h5 className="card-title">Card title</h5>
+                                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                            <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                         </div>
                                     </div>
                                 </div>
@@ -243,16 +243,16 @@ const CourseCategory = ({ params }) => {
 
 
                         <div className="col-md-6">
-                            <div class="card mb-3" style={{ width: "100%" }}>
-                                <div class="row g-0">
-                                    <div class="col-md-4">
+                            <div className="card mb-3" style={{ width: "100%" }}>
+                                <div className="row g-0">
+                                    <div className="col-md-4">
                                         <img src="..." alt="..." />
                                     </div>
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <div className="col-md-8">
+                                        <div className="card-body">
+                                            <h5 className="card-title">Card title</h5>
+                                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                            <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                         </div>
                                     </div>
                                 </div>
@@ -262,16 +262,16 @@ const CourseCategory = ({ params }) => {
 
 
                         <div className="col-md-6">
-                            <div class="card mb-3" style={{ width: "100%" }}>
-                                <div class="row g-0">
-                                    <div class="col-md-4">
+                            <div className="card mb-3" style={{ width: "100%" }}>
+                                <div className="row g-0">
+                                    <div className="col-md-4">
                                         <img src="..." alt="..." />
                                     </div>
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <div className="col-md-8">
+                                        <div className="card-body">
+                                            <h5 className="card-title">Card title</h5>
+                                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                            <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                         </div>
                                     </div>
                                 </div>
@@ -283,15 +283,26 @@ const CourseCategory = ({ params }) => {
             </div>
 
             <nav aria-label="Page navigation example">
-                <ul class="pagination justify-content-center">
-                    <li class="page-item disabled">
-                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+                <ul className="pagination justify-content-center">
+
+                    <li className="page-item disabled">
+                        <a className="page-link">Anterior</a>
                     </li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">Siguiente</a>
+
+                    <li className="page-item">
+                        <a className="page-link" href="#">1</a>
+                    </li>
+
+                    <li className="page-item">
+                        <a className="page-link" href="#">2</a>
+                    </li>
+
+                    <li className="page-item">
+                        <a className="page-link" href="#">3</a>
+                    </li>
+
+                    <li className="page-item">
+                        <a className="page-link" href="#">Siguiente</a>
                     </li>
                 </ul>
             </nav>
